@@ -1,5 +1,6 @@
 sudo apt-get install gcc -y
 sudo apt-get install python3 -y
+sudo apt install python-pip
 sudo apt-get install default-jre -y
 sudo apt-get install default-jdk -y
 curl https://sh.rustup.rs -sSf | sh
