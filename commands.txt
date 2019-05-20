@@ -1,0 +1,27 @@
+sudo apt-get install gcc -y
+sudo apt-get install python3 -y
+sudo apt-get install default-jre -y
+sudo apt-get install default-jdk -y
+curl https://sh.rustup.rs -sSf | sh
+rustup update
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+cd ./vim_runtime
+git clone https://github.com/Valloric/YouCompleteMe.git
+cd YouCompleteMe
+git submodule update --init --recursive
+python3 install.py --all
+sudo add-apt-repository ppa:webupd8team/atom
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update -y
+sudo apt-get install atom
+sudo apt-get install oracle-java8-set-default
+wget https://www-us.apache.org/dist/incubator/netbeans/incubating-netbeans/incubating-11.0/incubating-netbeans-11.0-bin.zip 
+unzip incubating-netbeans-11.0-bin.zip
+sudo mv netbeans/ /opt/
+nano ~/.bashrc
+export PATH="$PATH:/opt/netbeans/bin/"
+source ~/.bashrc
+sudo apt-get upgrade -y
+sudo apt-get install tmux -y
+
