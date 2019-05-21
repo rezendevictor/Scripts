@@ -1,10 +1,11 @@
+sudo apt-get install vim
 sudo apt-get install gcc -y
 sudo apt-get install python3 -y
 sudo apt install python-pip
 sudo apt-get install default-jre -y
 sudo apt-get install default-jdk -y
 curl https://sh.rustup.rs -sSf | sh
-rustup update
+rustup update 
 sudo apt install rustc -y
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
@@ -13,11 +14,11 @@ git clone https://github.com/Valloric/YouCompleteMe.git
 cd YouCompleteMe
 git submodule update --init --recursive
 python3 install.py --all
-sudo add-apt-repository ppa:webupd8team/atom
-sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository ppa:webupd8team/atom -y
+sudo add-apt-repository ppa:webupd8team/java -y
 sudo apt-get update -y
-sudo apt-get install atom
-sudo apt-get install oracle-java8-set-default
+sudo apt-get install atom -y
+sudo apt-get install oracle-java8-set-default -y
 wget https://www-us.apache.org/dist/incubator/netbeans/incubating-netbeans/incubating-11.0/incubating-netbeans-11.0-bin.zip 
 unzip incubating-netbeans-11.0-bin.zip
 sudo mv netbeans/ /opt/
