@@ -11,5 +11,4 @@ for com in command:
 
 command.close
 
-print("--The Following languages are supported now:\n *Rust\n *C\n *Java\n *Python\n
-        IDES installed in the System: \n *Atom\n *Awesome-Vim\n *NetBeans-Apache\n \n")
+print("--The Following languages are supported now:\n *Rust\n *C\n *Java\n *Python\n IDES installed in the System: \n *Atom\n *Awesome-Vim\n *NetBeans-Apache\n \n")
