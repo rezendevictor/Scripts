@@ -27,4 +27,5 @@ export PATH="$PATH:/opt/netbeans/bin/"
 source ~/.bashrc
 sudo apt-get upgrade -y
 sudo apt-get install tmux -y
+sudo bash install-chrome.sh
 clear
