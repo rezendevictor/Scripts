@@ -5,8 +5,10 @@ and create new panes, making the experience a lot easier
 
 Some commands:
 
-Ctrl + A is the master key;
+Ctrl + A is the master key
+
 C-a + arrows to divide your window
+
 Meta(Alt) + arrows to navigate the windows
 
 
